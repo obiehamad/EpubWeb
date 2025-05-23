@@ -1,1 +1,1 @@
-{\rtf1}
+pip freeze > requirements.txt
