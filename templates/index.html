@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EPUB Modifier</title>
+</head>
+<body>
+    <h1>Upload EPUB and Image</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>EPUB File:</label><br>
+        <input type="file" name="epub_file" accept=".epub" required><br><br>
+        <label>Image File:</label><br>
+        <input type="file" name="image_file" accept="image/*" required><br><br>
+        <input type="submit" value="Upload and Modify">
+    </form>
+</body>
+</html>
